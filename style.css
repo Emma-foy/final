@@ -1,0 +1,20 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+
+
+body{background-color:#E8D3B5 }
+#aboutlondon {background-image: url(aboutlondon.png); background-size: cover;
+background-repeat: no-repeat;}
+
+#title {text-align: center;}
+#about { padding-top: 50px; text-align: center;}
+
+.packing {text-align: center;background-image: url(pack.png); background-position: center; background-repeat: no-repeat;}
+#check{position: top:20px;}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+#traveling{text-align: center; background-color: #E8D3B5;}
+#head {width: 700px;}
