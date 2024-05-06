@@ -1,20 +1,44 @@
 /* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
 
+a, a:hover { color:whitesmoke ; }
+
+
+
+.nav-pills .nav-link.active, .show > .nav-pills .nav-link {
+    background-color: black;}
+
+ .nav-link:focus, .nav-link:hover {color: red; background-color: whitesmoke;}
+
+.nav-item:hover {
+	background-color: whitesmoke;}
+.nav-item a{color:black;}
+#nav {background-color:#fff1e9; height: 50px; }
 
 body{background-color:#E8D3B5 }
 #aboutlondon {background-image: url(aboutlondon.png); background-size: cover;
 background-repeat: no-repeat;}
 
-#title {text-align: center;}
+#home {text-align: center;}
 #about { padding-top: 50px; text-align: center;}
+#do{text-align: center; } 
+.packing {text-align: center;background-image: url(pack.png); background-position: center; background-repeat: no-repeat; height: 800px; margin-top: 20px;}
+#lists{padding-top:300px;}
+#check2{margin-top: 100px !important;}
 
-.packing {text-align: center;background-image: url(pack.png); background-position: center; background-repeat: no-repeat;}
-#check{position: top:20px;}
+#do{background-image: url(back.png);background-position: center; background-repeat: no-repeat;}
+
+input[type=checkbox]:checked +.form-check-label {text-decoration: line-through;}
+.form-check-input:checked {background-color: black; border-color: black;}
+.mlink {color: black; text-decoration: none;}
+.mlink:hover{color: red;}
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
 }
+#summer{background-image: url(list.png); background-position: center; background-repeat: no-repeat;}
+#title{width: 700px; text-align:center; }
+#things{width: 700px; }
 #traveling{text-align: center; background-color: #E8D3B5;}
 #head {width: 700px;}
